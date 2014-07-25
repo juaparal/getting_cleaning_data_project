@@ -2,6 +2,7 @@ getting_cleaning_data_project
 =============================
 
 Code Book
+=============================
 
 Human Activity Recognition Using Smartphones Dataset from UCI Machine Learning Repository
 
