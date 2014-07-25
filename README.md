@@ -22,16 +22,16 @@ Description of the run_analysis.R script
 3. It is read features.txt to label the columns name of the data coming from the sensors
 
 
-## Construction of the train data set
+4. Construction of the train data set
 
-4. Read the subject_train.txt, Y_train.txt, X_train.txt
+4.1. Read the subject_train.txt, Y_train.txt, X_train.txt
 
-5. Label the appropiate column names
+4.2 Label the appropiate column names
 
-7. Construction of a data set of traning data
+4.3 Construction of a data set of traning data
 
 
-## Construction of the test data set (same steps)
+5. Construction of the test data set (same steps)
 
 8. Read the subject_test.txt, Y_test.txt, X_test.txt
 
