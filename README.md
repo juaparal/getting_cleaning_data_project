@@ -24,39 +24,39 @@ Description of the run_analysis.R script
 
 4. Construction of the train data set
 
-  4.1. Read the subject_train.txt, Y_train.txt, X_train.txt
+  4.1 Read the subject_train.txt, Y_train.txt, X_train.txt
 
   4.2 Label the appropiate column names
 
-  4.3 Construction of a data set of traning data
+  4.3 Join the data to construct the traning data set
 
 
 5. Construction of the test data set (same steps)
 
-8. Read the subject_test.txt, Y_test.txt, X_test.txt
+  5.1 Read the subject_test.txt, Y_test.txt, X_test.txt
 
-9. Label the appropiate column names
+  5.2 Label the appropiate column names
 
-10. Construction of a data set of test data
-
-
-## Construction of the complete tidy data set for analysis. 
-
-11. It is saved as a txt file. This is de tidy data set uploaded.
+  5.3 Join the data to construct the test data set
 
 
-12. It is solved the question "Extracting only the measurements on the mean and standard deviation for each measurement"
+6. Construction of the complete tidy data set for analysis. 
 
-13. I make a subset of the tidy data set choosing only the columns that have "std" or "mean" in the column name
-
-14. A data set named as "measurements" is constructed
+  6.1 It is saved as a txt file. This is de tidy data set uploaded.
 
 
-15. It is solved the question "Creates a second, independent tidy data set with the average of each variable for each activity and each subject"
+7. It is solved the question "Extracting only the measurements on the mean and standard deviation for each measurement"
 
-16. It is used the library "plyr"
+  7.1. I make a subset of the tidy data set choosing only the columns that have "std" or "mean" in the column name
 
-17. With the "ddply" instruction it is created the second tidy data set.
+  7.2. A data set named as "measurements" is constructed
+
+
+8. It is solved the question "Creates a second, independent tidy data set with the average of each variable for each activity and each subject"
+
+  8.1. It is used the library "plyr"
+
+  8.2. With the "ddply" instruction it is created the second tidy data set.
 
 
 Thus all the exercises have been completed.
