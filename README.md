@@ -24,11 +24,11 @@ Description of the run_analysis.R script
 
 4. Construction of the train data set
 
-4.1. Read the subject_train.txt, Y_train.txt, X_train.txt
+  4.1. Read the subject_train.txt, Y_train.txt, X_train.txt
 
-4.2 Label the appropiate column names
+  4.2 Label the appropiate column names
 
-4.3 Construction of a data set of traning data
+  4.3 Construction of a data set of traning data
 
 
 5. Construction of the test data set (same steps)
