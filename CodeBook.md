@@ -23,13 +23,21 @@ Study design
 With the raw data coming from Human Activity Recognition Using Smartphones Dataset from UCI Machine Learning Repository the training and test sets have been merged to construct a Tidy Data Set for analysis.
 
 The files that have been used for the study are:
+
 activity_labels.txt
+
 features.txt
+
 subject_train.txt
+
 Y_train.txt
+
 X_train.txt
+
 subject_test.txt
+
 Y_test.txt
+
 X_test.txt
 
 With them a Tidy data Set named as tidydataset.txt have been constructed
